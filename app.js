@@ -105,6 +105,7 @@
 
                 td1.setAttribute('class', "w3-container w3-light-grey");
                 td1.setAttribute('id', cursor.key);
+
                 var td2 = document.createElement('div');
                 td2.setAttribute('id', cursor.key);
                 td2.setAttribute('class', "w3-container ");
