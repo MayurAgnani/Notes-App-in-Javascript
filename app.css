@@ -1,0 +1,62 @@
+.SubmitButton {
+    position: fixed;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    top: 100px;
+    left: 10px;
+}
+.SubmitButton:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
+}
+.table-hover tbody tr:hover td,
+.table-hover tbody tr:hover th {
+    background-color: #2ECC71;
+    padding: 12px;
+}
+.table tbody tr th,
+.table tbody tr td {
+    padding: 10px;
+}
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 250px;
+    background-color: lightgrey;
+}
+.flex-item {
+    background-color: #5bc0de;
+    position: relative;
+    float: left;
+    height: 100px;
+    margin-left: 15px;
+    margin-top: 15px;
+    width: 33%;
+}
+.col {
+    background-color: #5bc0de;
+    color: white;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    padding-left: 12%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    position: relative;
+    left: 10px;
+    width: 80%;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
+}
+.hide {
+    visibility: hidden;
+}
+.modal-dialog .modal-content {
+    background-color: #5bc0de;
+    color: white;
+}
